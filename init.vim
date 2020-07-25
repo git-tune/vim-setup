@@ -20,6 +20,23 @@ inoremap <C-l> <Right>
 inoremap <C-k> <Up>                          
 inoremap <C-j> <Down>
 
+" defult nop                                    
+vnoremap  <Up>     <nop>                                    
+vnoremap  <Down>   <nop>                                    
+vnoremap  <Left>   <nop>                                    
+vnoremap  <Right>  <nop>                                    
+vnoremap  <BS>     <nop>                                    
+inoremap  <Up>     <nop>                                    
+inoremap  <Down>   <nop>                                    
+inoremap  <Left>   <nop>                                    
+inoremap  <Right>  <nop>                                    
+inoremap  <BS>     <nop>                                    
+noremap   <Up>     <nop>                                    
+noremap   <Down>   <nop>                                    
+noremap   <Left>   <nop>                                    
+noremap   <Right>  <nop>                                    
+noremap   <BS>     <nop>
+
 " encode setting
 set encoding=utf-8
 
