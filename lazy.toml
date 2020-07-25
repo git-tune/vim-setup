@@ -1,6 +1,9 @@
 # ------------------------------------ 
 # toml syntax                          
 # ------------------------------------           
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
 [[plugins]]                                                                                      repo = 'cespare/vim-toml'                                    
 on_ft = 'toml'
 
