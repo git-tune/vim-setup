@@ -1,4 +1,4 @@
-" ------------------------------------------------------------
+
 " Normal Mode
 cnoremap init :<C-u>edit $MYVIMRC<CR>                           " init.vim呼び出し
 noremap <Space>s :source $MYVIMRC<CR>                           " init.vim読み込み
@@ -19,23 +19,6 @@ inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 inoremap <C-k> <Up>                          
 inoremap <C-j> <Down>
-
-" defult nop                                    
-vnoremap  <Up>     <nop>                                    
-vnoremap  <Down>   <nop>                                    
-vnoremap  <Left>   <nop>                                    
-vnoremap  <Right>  <nop>                                    
-vnoremap  <BS>     <nop>                                    
-inoremap  <Up>     <nop>                                    
-inoremap  <Down>   <nop>                                    
-inoremap  <Left>   <nop>                                    
-inoremap  <Right>  <nop>                                    
-inoremap  <BS>     <nop>                                    
-noremap   <Up>     <nop>                                    
-noremap   <Down>   <nop>                                    
-noremap   <Left>   <nop>                                    
-noremap   <Right>  <nop>                                    
-noremap   <BS>     <nop>
 
 " encode setting
 set encoding=utf-8
